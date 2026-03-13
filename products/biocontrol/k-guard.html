@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K-Guard | Karanjin Biocontrol Portfolio</title>
+  <link rel="icon" href="/assets/img/Fav.svg">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+<body class="product-page">
+    <!-- ===== PREMIUM NAVBAR ===== -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="../../index.html" class="nav-logo">
+        <img src="../../assets/img/logo.png" alt="Kriya Ltd" />
+      </a>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="../../index.html" class="nav-link">Home</a></li>
+          <li><a href="../../about.html" class="nav-link">About</a></li>
+
+          <!-- Products Dropdown -->
+          <li class="nav-item dropdown dropdown-products">
+            <a href="../../index.html#products" class="nav-link dropbtn">
+              <span>Products</span>
+              <span class="material-symbols-outlined">expand_more</span>
+            </a>
+            <div class="dropdown-content products-dropdown">
+              <div class="categories-menu">
+                <div class="category-item">
+                  <a href="../../products/biocontrol.html" class="category-link">
+                    <span class="submenu-icon material-symbols-outlined">pest_control</span>
+                    <div class="category-info">
+                      <h4>Biocontrol</h4>
+                      <p>Natural pest management</p>
+                    </div>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </a>
+                  <div class="submenu">
+                    <div class="submenu-header">
+                      <h5>Biocontrol Products</h5>
+                      <p>Botanical and microbial actives</p>
+                    </div>
+                    <div class="submenu-grid">
+                      <a href="../../products/biocontrol/ecoza.html" data-tooltip="Azadirachtin">Ecoza</a>
+                      <a href="../../products/biocontrol/margoshine.html" data-tooltip="Neem Oil">Margoshine</a>
+                      <a href="../../products/biocontrol/k-guard.html" data-tooltip="Karanjin">K-Guard</a>
+                      <a href="../../products/biocontrol/weedx.html" data-tooltip="MCT Weed Killer">WeedX</a>
+                      <a href="../../products/biocontrol/spindura.html" data-tooltip="Spinosad">Spindura</a>
+                      <a href="../../products/biocontrol/margospin.html" data-tooltip="Neem Oil + Spinosad">MargoSpin</a>
+                      <a href="../../products/biocontrol/admira.html" data-tooltip="Essential Oil Formulation">Admira</a>
+                      <a href="../../products/biocontrol/mycova.html" data-tooltip="Beauveria bassiana">Mycova</a>
+                      <a href="../../products/biocontrol/rexora.html" data-tooltip="Metarhizium anisopliae">Rexora</a>
+                      <a href="../../products/biocontrol/biota.html" data-tooltip="Trichoderma viride / harzianum">Biota (V/H)</a>
+                      <a href="../../products/biocontrol/seira.html" data-tooltip="Verticillium lecanii">Seira</a>
+                      <a href="../../products/biocontrol/encilo.html" data-tooltip="Paecilomyces lilacinus">EnCilo</a>
+                      <a href="../../products/biocontrol/neuvita.html" data-tooltip="Ampelomyces quisqualis">Neuvita</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="category-item">
+                  <a href="../../products/biostimulants.html" class="category-link">
+                    <span class="submenu-icon material-symbols-outlined">eco</span>
+                    <div class="category-info">
+                      <h4>Biostimulants</h4>
+                      <p>Plant resilience &amp; nutrition</p>
+                    </div>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </a>
+                  <div class="submenu">
+                    <div class="submenu-header">
+                      <h5>Biostimulant Products</h5>
+                      <p>Microbial &amp; botanical enhancers</p>
+                    </div>
+                    <div class="submenu-grid">
+                      <a href="../../products/biostimulants/igreen.html" data-tooltip="Microbial consortium">IGreen</a>
+                      <a href="../../products/biostimulants/zenita.html" data-tooltip="Peptide formulation">Zenita</a>
+                      <a href="../../products/biostimulants/cropsia.html" data-tooltip="Plant extracts formulation">Cropsia</a>
+                      <a href="../../products/biostimulants/enrhize.html" data-tooltip="Arbuscular Mycorrhizal">EnRhize</a>
+                      <a href="../../products/biostimulants/orgocare.html" data-tooltip="Plant based Antitranspirants">Orgocare</a>
+                      <a href="../../products/biostimulants/blooma.html" data-tooltip="Seaweed formulation">Blooma</a>
+                      <a href="../../products/biostimulants/envicta.html" data-tooltip="Humic &amp; fulvic formulation">Envicta</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="category-item">
+                  <a href="../../products/substrates.html" class="category-link">
+                    <span class="submenu-icon material-symbols-outlined">compost</span>
+                    <div class="category-info">
+                      <h4>Substrates</h4>
+                      <p>Soil amendment solutions</p>
+                    </div>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </a>
+                  <div class="submenu">
+                    <div class="submenu-header">
+                      <h5>Substrate Products</h5>
+                      <p>Soil health &amp; seed treatments</p>
+                    </div>
+                    <div class="submenu-grid">
+                      <a href="../../products/substrates/maxineem.html" data-tooltip="Neem cake">Maxineem</a>
+                      <a href="../../products/substrates/kmix.html" data-tooltip="Karanja cake">K-Mix</a>
+                      <a href="../../products/substrates/mystica.html" data-tooltip="Wetting &amp; spreading agents">Mystica</a>
+                      <a href="../../products/substrates/engrow.html" data-tooltip="Seed coating">Engrow</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="category-item">
+                  <a href="../../products/home-garden.html" class="category-link">
+                    <span class="submenu-icon material-symbols-outlined">yard</span>
+                    <div class="category-info">
+                      <h4>Home &amp; Garden</h4>
+                      <p>Consumer-ready packs</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- Technology Dropdown -->
+          <li class="nav-item dropdown dropdown-tech">
+            <a href="../../technology/karyo.html" class="nav-link dropbtn">
+              <span>Technology</span>
+              <span class="material-symbols-outlined">expand_more</span>
+            </a>
+            <div class="dropdown-content tech-dropdown">
+              <div class="tech-menu-compact">
+                <a href="../../technology/karyo.html" class="tech-item-compact" data-tooltip="Delivery Platform">
+                  <div class="tech-content-compact">
+                    <h5>Karyo Technology</h5>
+                    <p>Formulation technology</p>
+                  </div>
+                </a>
+
+                <a href="../../technology/wynn.html" class="tech-item-compact" data-tooltip="Microbial Platform">
+                  <div class="tech-content-compact">
+                    <h5>Wynn Formulation</h5>
+                    <p>Microbial innovation</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li><a href="../../contract-manufacturing.html" class="nav-link">Manufacturing</a></li>
+          <li><a href="../../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE HERO ===== -->
+  <section class="page-hero interior-hero product-hero">
+    <div class="container">
+      <div class="product-hero-layout">
+        <div class="page-hero-content product-hero-copy">
+          <span class="page-hero-eyebrow">Biocontrol Portfolio</span>
+          <h1 class="page-hero-title">K-Guard&trade; Botanical Insect Growth Regulator for Residue-Sensitive Markets</h1>
+          <div class="hero-metrics hero-metrics-product">
+            <div class="hero-metric hero-metric-compact">
+              <div class="hero-metric-text">
+                <strong>Pongamia-Derived Botanical With Contact</strong>
+              </div>
+            </div>
+            <div class="hero-metric hero-metric-compact">
+              <div class="hero-metric-text">
+                <strong>Reduces Larval Feeding And</strong>
+              </div>
+            </div>
+            <div class="hero-metric hero-metric-compact">
+              <div class="hero-metric-text">
+                <strong>Useful In Early Infestation</strong>
+              </div>
+            </div>
+          </div>
+          <div class="page-hero-actions">
+            <a href="../../contact.html" class="btn-primary">
+              <span>Request Pricing</span>
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </a>
+            <a href="../../contract-manufacturing.html" class="btn-outline">
+              <span>Scale With Kriya</span>
+              <span class="material-symbols-outlined">factory</span>
+            </a>
+          </div>
+        </div>
+        <div class="product-hero-visual">
+          <figure class="page-hero-image image-placeholder square">
+
+            <img src="../../assets/img/placeholders/k-guard-hero.svg" alt="K-Guard product imagery placeholder" loading="lazy" />
+
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCT OVERVIEW ===== -->
+  <section class="section product-overview">
+    <div class="container">
+      <div class="product-overview-grid">
+        <div class="overview-copy">
+          <div class="section-header align-left">
+            <span class="section-subtitle">Product Overview</span>
+            <h2 class="section-title">Karanjin Botanical Pesticide</h2>
+          </div>
+          <p>K-Guard is a karanjin-based botanical pesticide derived from Pongamia seed actives for early control of sucking and chewing pests. It is suited to IPM programs that require a plant-derived antifeedant and population-suppressive spray option.</p>
+        </div>
+        <div class="overview-insights">
+          <div class="insight-card">
+            <span class="material-symbols-outlined">forest</span>
+            <div>
+              <h3>Pongamia-Derived Botanical With Contact</h3>
+              <p>Pongamia-derived botanical with contact and antifeedant properties</p>
+            </div>
+          </div>
+          <div class="insight-card">
+            <span class="material-symbols-outlined">sync_alt</span>
+            <div>
+              <h3>Reduces Larval Feeding And</h3>
+              <p>Reduces larval feeding and slows pest population build-up</p>
+            </div>
+          </div>
+          <div class="insight-card">
+            <span class="material-symbols-outlined">workspace_premium</span>
+            <div>
+              <h3>Useful In Early Infestation</h3>
+              <p>Useful in early infestation windows before severe crop injury</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VARIANTS ===== -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">K-Guard Line-Up</span>
+        <h2 class="section-title">Two formulations built around karanjin mastery</h2>
+        <p class="section-description">Distributors can tailor residue-conscious programs with complementary EC and WP formats backed by full documentation.</p>
+      </div>
+      <div class="variant-grid">
+        <article class="variant-card">
+          <div class="variant-packshot">
+            <img src="../../assets/img/placeholders/k-guard-ec-pack.svg" alt="K-Guard EC packshot placeholder" loading="lazy" />
+          </div>
+          <div class="variant-body">
+            <h3>K-Guard</h3>
+            <p class="variant-formula">Karanjin<br> (2%) EC</p>
+            <a class="variant-link btn-download" target="_blank" type="button" href="../../docs/k-guard-ec-tds.pdf">
+              Download technical sheet
+            </a>
+          </div>
+        </article>
+        <article class="variant-card">
+          <div class="variant-packshot">
+            <img src="../../assets/img/placeholders/k-rix-pack.svg" alt="K-Rix WP packshot placeholder" loading="lazy" />
+          </div>
+          <div class="variant-body">
+            <h3>K-Rix</h3>
+            <p class="variant-formula">Karanjin<br> (5%) WP</p>
+            <a class="variant-link btn-download" target="_blank" type="button" href="../../docs/k-rix-wp-tds.pdf">
+              Download technical sheet
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KEY FEATURES ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Why Distributors Choose K-Guard</span>
+        <h2 class="section-title">Key Features</h2>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-heading">
+            <div class="feature-icon">
+              <span class="material-symbols-outlined">ink_eraser</span>
+            </div>
+            <h3>Pongamia-Derived Botanical With Contact</h3>
+          </div>
+          <p>Pongamia-derived botanical with contact and antifeedant properties</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-heading">
+            <div class="feature-icon">
+              <span class="material-symbols-outlined">water_drop</span>
+            </div>
+            <h3>Pongamia-Derived Botanical With Contact</h3>
+          </div>
+          <p>Pongamia-derived botanical with contact and antifeedant properties</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-heading">
+            <div class="feature-icon">
+              <span class="material-symbols-outlined">forest</span>
+            </div>
+            <h3>Pongamia-Derived Botanical With Contact</h3>
+          </div>
+          <p>Pongamia-derived botanical with contact and antifeedant properties</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-heading">
+            <div class="feature-icon">
+              <span class="material-symbols-outlined">handshake</span>
+            </div>
+            <h3>Pongamia-Derived Botanical With Contact</h3>
+          </div>
+          <p>Pongamia-derived botanical with contact and antifeedant properties</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MODE OF ACTION ===== -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Mode of Action</span>
+        <h2 class="section-title">Karanjin acts as a feeding deterrent and contact-active botanical toxicant</h2>
+      </div>
+      <div class="image-placeholder wide">
+
+        <img src="../../assets/img/placeholders/k-guard-mode.svg" alt="Mode of action visual placeholder" loading="lazy" />
+
+      </div>
+      <p class="moa-description">Karanjin acts as a feeding deterrent and contact-active botanical toxicant. It interferes with digestive physiology and insect hormonal regulation in immature stages, reduces larval growth and feeding, and suppresses adult fecundity and oviposition, thereby slowing population build-up.</p>
+    </div>
+  </section>
+
+  <!-- ===== PEST & CROP COVERAGE ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="coverage-grid">
+        <div class="coverage-card">
+          <div class="section-header align-left">
+            <span class="section-subtitle">Pests Controlled</span>
+            <h2 class="section-title">Target Spectrum</h2>
+          </div>
+          <ul class="coverage-list">
+            <li>Aphids</li>
+            <li>Whiteflies</li>
+            <li>Thrips</li>
+            <li>Caterpillars</li>
+            <li>Leaf Miners</li>
+          </ul>
+        </div>
+        <div class="coverage-card">
+          <div class="section-header align-left">
+            <span class="section-subtitle">Diseases &amp; Secondary Effects</span>
+            <h2 class="section-title">Indirect Benefits</h2>
+          </div>
+          <ul class="coverage-list">
+            <li>Reduces honeydew and sooty mold build-up on leaves and fruit</li>
+            <li>Lowers vector pressure for viral and phytoplasma diseases</li>
+            <li>Supports IRM programs as a botanical rotation partner</li>
+            <li>Improves marketable yields through cleaner foliage and fruit finish</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section-header align-left crops-header">
+        <span class="section-subtitle">Crops Covered</span>
+        <h2 class="section-title">Versatile performance across premium crops</h2>
+      </div>
+      <div class="crop-grid">
+        <span>Vegetables: chilli, tomato, okra, cucurbits</span>
+        <span>Fruit crops: citrus, mango, grape, banana</span>
+        <span>Plantation crops: tea, coffee, cocoa</span>
+        <span>Field crops: cotton, soybean, pulses</span>
+        <span>Protected cultivation: ornamentals, herbs, nursery stock</span>
+        <span>Spices &amp; medicinal plants needing residue compliance</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DOSAGE & DILUTION ===== -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Dosage &amp; Dilution</span>
+        <h2 class="section-title">Label-aligned guidance for karanjin programs</h2>
+      </div>
+
+      
+
+      <div class="dosage-table-wrapper">
+        <h3 class="dosage-heading">K-Guard &ndash; Karanjin 2% EC</h3>
+        <div class="dosage-table-scroll">
+          <table class="dosage-table">
+            <thead>
+              <tr>
+                <th>Crop Stage</th>
+                <th>Dose per Acre</th>
+                <th>Water Volume</th>
+                <th>Application Method</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Early sucking or chewing pest infestation</td>
+                <td>400&ndash;600 mL/acre</td>
+                <td>150&ndash;200 L</td>
+                <td>Foliar spray with full canopy coverage</td>
+              </tr>
+              <tr>
+                <td>Moderate infestation</td>
+                <td>600&ndash;800 mL/acre</td>
+                <td>180&ndash;220 L</td>
+                <td>Foliar spray focusing on tender plant parts</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="dosage-table-wrapper">
+        <h3 class="dosage-heading">K-Rix &ndash; Karanjin 5% WP</h3>
+        <div class="dosage-table-scroll">
+          <table class="dosage-table">
+            <thead>
+              <tr>
+                <th>Crop Stage</th>
+                <th>Dose per Acre</th>
+                <th>Water Volume</th>
+                <th>Application Method</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Early sucking or chewing pest infestation</td>
+                <td>300&ndash;500 g/acre</td>
+                <td>150&ndash;200 L</td>
+                <td>Foliar spray after preparing a uniform suspension</td>
+              </tr>
+              <tr>
+                <td>Moderate infestation</td>
+                <td>500&ndash;700 g/acre</td>
+                <td>180&ndash;220 L</td>
+                <td>Foliar spray with continuous agitation</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="dosage-table-wrapper">
+        <h3 class="dosage-heading">Application Timing &amp; Frequency</h3>
+        <div class="dosage-table-scroll">
+          <table class="dosage-table">
+            <thead>
+              <tr>
+                <th>Application Timing</th>
+                <th>Frequency</th>
+                <th>Recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>At the onset of pest colonization</td>
+                <td>Repeat every 7-10 days</td>
+                <td>Use preventively or at low pest density for better population suppression.</td>
+              </tr>
+              <tr>
+                <td>During continuous pest emergence</td>
+                <td>2-3 sprays in sequence</td>
+                <td>Ensure coverage of new flush and actively feeding zones of the canopy.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    
+    </div>
+  </section>
+
+  <!-- ===== PROGRAM FIT ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Program Fit</span>
+        <h2 class="section-title">Use sites, tank mix flexibility, and storage guidance</h2>
+      </div>
+      <div class="use-grid">
+        <div class="use-card">
+          <h3><span class="material-symbols-outlined">map</span> Use Sites</h3>
+          <ul>
+            <li>Open-field vegetables, pulses, cotton, and oilseeds</li>
+            <li>Fruit orchards and plantation crops requiring low residues</li>
+            <li>Protected cultivation including greenhouse and shade-net systems</li>
+            <li>Nursery and ornamental production facilities</li>
+            <li>Organic transition acres seeking botanical rotations</li>
+          </ul>
+        </div>
+        <div class="use-card">
+          <h3><span class="material-symbols-outlined">science</span> Compatibility</h3>
+          <ul>
+            <li>Compatible with most neutral-pH spray inputs; avoid strongly alkaline mixes and confirm with a jar test.</li>
+          </ul>
+        </div>
+        <div class="use-card">
+          <h3><span class="material-symbols-outlined">inventory</span> Shelf Life &amp; Storage</h3>
+          <ul>
+            <li>Standardized to 2% karanjin.</li>
+            <li>Typical shelf life: 24 months in the unopened original container under cool, dry, shaded storage.</li>
+            <li>Store sealed in the original pack away from heat, direct sunlight, and moisture.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="section cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Bring botanical IGR performance to your portfolio</h2>
+        <p>Partner with Kriya to access high-purity karanjin formulations, regulatory expertise, and manufacturing scale for international growth.</p>
+        <div class="cta-actions">
+          <a href="../../contact.html" class="btn-primary">
+            <span>Contact Sales</span>
+            <span class="material-symbols-outlined">arrow_forward</span>
+          </a>
+          <a href="../../contract-manufacturing.html" class="btn-outline">
+            <span>Contract Manufacturing</span>
+            <span class="material-symbols-outlined">factory</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  
+<footer class="footer">
+  <div class="container">
+    <div class="footer-strip">
+      <div class="footer-brand">
+        <a href="../../index.html" class="footer-logo">
+          <img src="../../assets/img/footer-logo.png" alt="Kriya Ltd" />
+        </a>
+        <p class="footer-brandline">Leading provider of certified organic crop care solutions for sustainable agriculture.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="../../about.html">About</a>
+        <a href="../../index.html#products">Products</a>
+        <a href="../../technology/karyo.html">Technology</a>
+        <a href="../../contact.html">Contact</a>
+      </nav>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/company/108402158/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a href="https://www.youtube.com/@kriyabiosys" class="social-icon" aria-label="YouTube" target="_blank" rel="noopener">
+          <i class="bx bxl-youtube"></i>
+        </a>
+        <a href="https://x.com/kriyabiosys" class="social-icon" aria-label="Twitter" target="_blank" rel="noopener">
+          <i class="bx bxl-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/kriyabiosys/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="/cdn-cgi/l/email-protection#91f8fff7fed1fae3f8e8f0bffde5f5" class="social-icon" aria-label="Email">
+          <i class="bx bx-envelope"></i>
+        </a>
+        <a href="https://wa.me/916385848466" class="social-icon" aria-label="WhatsApp" target="_blank" rel="noopener">
+          <i class="bx bxl-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-meta">
+      <p class="footer-disclaimer">For usage/dosage information, refer to the product documentation supplied with each formulation.</p>
+      <div class="footer-legal">
+        <span>© Kriya Ltd 2025</span>
+        <a href="../../policies.html#trademark">Trademark</a>
+        <a href="../../policies.html#privacy">Privacy</a>
+        <a href="../../policies.html#responsible-use">Responsible Use</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <button class="back-to-top" id="backToTop">
+    <span class="material-symbols-outlined">arrow_upward</span>
+    <span class="back-to-top-text">Back to top</span>
+  </button>
+
+  <script data-cfasync="false" s

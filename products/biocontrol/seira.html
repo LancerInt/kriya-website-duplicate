@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seira | Verticillium lecanii Biocontrol Portfolio</title>
+  <link rel="icon" href="/assets/img/Fav.svg">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+<body class="product-page">
+    <!-- ===== PREMIUM NAVBAR ===== -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="../../index.html" class="nav-logo">
+        <img src="../../assets/img/logo.png" alt="Kriya Ltd" />
+      </a>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="../../index.html" class="nav-link">Home</a></li>
+          <li><a href="../../about.html" class="nav-link">About</a></li>
+
+          <!-- Products Dropdown -->
+          <li class="nav-item dropdown dropdown-products">
+            <a href="../../index.html#products" class="nav-link dropbtn">
+              <span>Products</span>
+              <span class="material-symbols-outlined">expand_more</span>
+            </a>
+            <div class="dropdown-content products-dropdown">
+              <div class="categories-menu">
+                <div class="category-item">
+                  <a href="../../products/biocontrol.html" class="category-link">
+                    <span class="submenu-icon material-symbols-outlined">pest_control</span>
+                    <div class="category-info">
+                      <h4>Biocontrol</h4>
+                      <p>Natural pest management</p>
+                    </div>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </a>
+                  <div class="submenu">
+                    <div class="submenu-header">
+                      <h5>Biocontrol Products</h5>
+                      <p>Botanical and microbial actives</p>
+                    </div>
+                    <div class="submenu-grid">
+                      <a href="../../products/biocontrol/ecoza.html" data-tooltip="Azadirachtin">Ecoza</a>
+                      <a href="../../products/biocontrol/margoshine.html" data-tooltip="Neem Oil">Margoshine</a>
+                      <a href="../../products/biocontrol/k-guard.html" data-tooltip="Karanjin">K-Guard</a>
+                      <a href="../../products/biocontrol/weedx.html" data-tooltip="MCT Weed Killer">WeedX</a>
+                      <a href="../../products/biocontrol/spindura.html" data-tooltip="Spinosad">Spindura</a>
+                      <a href="../../products/biocontrol/margospin.html" data-tooltip="Neem Oil + Spinosad">MargoSpin</a>
+                      <a href="../../products/biocontrol/admira.html" data-tooltip="Essential Oil Formulation">Admira</a>
+                      <a href="../../products/biocontrol/mycova.html" data-tooltip="Beauveria bassiana">Mycova</a>
+                      <a href="../../products/biocontrol/rexora.html" data-tooltip="Metarhizium anisopliae">Rexora</a>
+                      <a href="../../products/biocontrol/biota.html" data-tooltip="Trichoderma viride / harzianum">Biota (V/H)</a>
+                      <a href="../../products/biocontrol/seira.html" data-tooltip="Verticillium lecanii">Seira</a>
+                      <a href="../../products/biocontrol/encilo.html" data-tooltip="Paecilomyces lilacinus">EnCilo</a>
+                      <a href="../../products/biocontrol/neuvita.html" data-tooltip="Ampelomyces quisqualis">Neuvita</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="category-item">
+                  <a href="../../products/biostimulants.html" class="category-link">
+                    <span class="submenu-icon material-symbols-outlined">eco</span>
+                    <div class="category-info">
+                      <h4>Biostimulants</h4>
+                      <p>Plant resilience &amp; nutrition</p>
+                    </div>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </a>
+                  <div class="submenu">
+                    <div class="submenu-header">
+                      <h5>Biostimulant Products</h5>
+                      <p>Microbial &amp; botanical enhancers</p>
+                    </div>
+                    <div class="submenu-grid">
+                      <a href="../../products/biostimulants/igreen.html" data-tooltip="Microbial consortium">IGreen</a>
+                      <a href="../../products/biostimulants/zenita.html" data-tooltip="Peptide formulation">Zenita</a>
+                      <a href="../../products/biostimulants/cropsia.html" data-tooltip="Plant extracts formulation">Cropsia</a>
+                      <a href="../../products/biostimulants/enrhize.html" data-tooltip="Arbuscular Mycorrhizal">EnRhize</a>
+                      <a href="../../products/biostimulants/orgocare.html" data-tooltip="Plant based Antitranspirants">Orgocare</a>
+                      <a href="../../products/biostimulants/blooma.html" data-tooltip="Seaweed formulation">Blooma</a>
+                      <a href="../../products/biostimulants/envicta.html" data-tooltip="Humic &amp; fulvic formulation">Envicta</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="category-item">
+                  <a href="../../products/substrates.html" class="category-link">
+                    <span class="submenu-icon material-symbols-outlined">compost</span>
+                    <div class="category-info">
+                      <h4>Substrates</h4>
+                      <p>Soil amendment solutions</p>
+                    </div>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </a>
+                  <div class="submenu">
+                    <div class="submenu-header">
+                      <h5>Substrate Products</h5>
+                      <p>Soil health &amp; seed treatments</p>
+                    </div>
+                    <div class="submenu-grid">
+                      <a href="../../products/substrates/maxineem.html" data-tooltip="Neem cake">Maxineem</a>
+                      <a href="../../products/substrates/kmix.html" data-tooltip="Karanja cake">K-Mix</a>
+                      <a href="../../products/substrates/mystica.html" data-tooltip="Wetting &amp; spreading agents">Mystica</a>
+                      <a href="../../products/substrates/engrow.html" data-tooltip="Seed coating">Engrow</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="category-item">
+                  <a href="../../products/home-garden.html" class="category-link">
+                    <span class="submenu-icon material-symbols-outlined">yard</span>
+                    <div class="category-info">
+                      <h4>Home &amp; Garden</h4>
+                      <p>Consumer-ready packs</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- Technology Dropdown -->
+          <li class="nav-item dropdown dropdown-tech">
+            <a href="../../technology/karyo.html" class="nav-link dropbtn">
+              <span>Technology</span>
+              <span class="material-symbols-outlined">expand_more</span>
+            </a>
+            <div class="dropdown-content tech-dropdown">
+              <div class="tech-menu-compact">
+                <a href="../../technology/karyo.html" class="tech-item-compact" data-tooltip="Delivery Platform">
+                  <div class="tech-content-compact">
+                    <h5>Karyo Technology</h5>
+                    <p>Formulation technology</p>
+                  </div>
+                </a>
+
+                <a href="../../technology/wynn.html" class="tech-item-compact" data-tooltip="Microbial Platform">
+                  <div class="tech-content-compact">
+                    <h5>Wynn Formulation</h5>
+                    <p>Microbial innovation</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li><a href="../../contract-manufacturing.html" class="nav-link">Manufacturing</a></li>
+          <li><a href="../../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE HERO ===== -->
+  <section class="page-hero interior-hero product-hero">
+    <div class="container">
+      <div class="product-hero-layout">
+        <div class="page-hero-content product-hero-copy">
+          <span class="page-hero-eyebrow">Biocontrol Portfolio</span>
+          <h1 class="page-hero-title">Seira&trade; Verticillium lecanii Programs for Soft-Bodied Pest Management</h1>
+          <div class="hero-metrics">
+            <div class="hero-metric hero-metric-compact">
+              <div class="hero-metric-text">
+                <strong>Entomopathogenic Fungus Specialized For</strong>
+              </div>
+            </div>
+            <div class="hero-metric hero-metric-compact">
+              <div class="hero-metric-text">
+                <strong>Penetrates The Host Through</strong>
+              </div>
+            </div>
+            <div class="hero-metric hero-metric-compact">
+              <div class="hero-metric-text">
+                <strong>Useful In Biological Canopy</strong>
+              </div>
+            </div>
+          </div>
+          <div class="page-hero-actions">
+            <a href="../../contact.html" class="btn-primary">
+              <span>Request Pricing</span>
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </a>
+            <a href="../../contract-manufacturing.html" class="btn-outline">
+              <span>Scale With Kriya</span>
+              <span class="material-symbols-outlined">factory</span>
+            </a>
+          </div>
+        </div>
+        <div class="product-hero-visual">
+          <figure class="page-hero-image image-placeholder square">
+
+            <img src="../../assets/img/placeholders/seira-hero.svg" alt="Seira product imagery placeholder" loading="lazy" />
+
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCT OVERVIEW ===== -->
+  <section class="section product-overview">
+    <div class="container">
+      <div class="product-overview-grid">
+        <div class="overview-copy">
+          <div class="section-header align-left">
+            <span class="section-subtitle">Product Overview</span>
+            <h2 class="section-title">Verticillium lecanii Microbial Pesticide</h2>
+          </div>
+          <p>Seira is a Verticillium lecanii wettable powder for biological control of soft-bodied sucking pests in crop canopies. It performs best when applied early under humid conditions that support spore germination on the insect cuticle.</p>
+        </div>
+        <div class="overview-insights">
+          <div class="insight-card">
+            <span class="material-symbols-outlined">forest</span>
+            <div>
+              <h3>Entomopathogenic Fungus Specialized For</h3>
+              <p>Entomopathogenic fungus specialized for soft-bodied sucking pests</p>
+            </div>
+          </div>
+          <div class="insight-card">
+            <span class="material-symbols-outlined">sync_alt</span>
+            <div>
+              <h3>Penetrates The Host Through</h3>
+              <p>Penetrates the host through spore germination and cuticle infection</p>
+            </div>
+          </div>
+          <div class="insight-card">
+            <span class="material-symbols-outlined">workspace_premium</span>
+            <div>
+              <h3>Useful In Biological Canopy</h3>
+              <p>Useful in biological canopy management under humid conditions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VARIANTS ===== -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Seira Line-Up</span>
+        <h2 class="section-title">Formulations for foliar and protected cropping</h2>
+        <p class="section-description">Choose between an easy-to-dilute OD for foliar applications and a fine WP for greenhouse drench and fogging systems.</p>
+      </div>
+      <div class="variant-grid">
+        <article class="variant-card">
+          <div class="variant-packshot">
+            <img src="../../assets/img/placeholders/seira-ec-pack.svg" alt="Seira OD packshot placeholder" loading="lazy" />
+          </div>
+          <div class="variant-body">
+            <h3>Seira OD</h3>
+            <p class="variant-formula">Verticillium lecanii<br> (1 × 10<sup>9</sup> CFU/mL) OD</p>
+            <a class="variant-link btn-download" target="_blank" type="button" href="../../docs/seira-ec-tds.pdf">
+              Download technical sheet
+            </a>
+          </div>
+        </article>
+        <article class="variant-card">
+          <div class="variant-packshot">
+            <img src="../../assets/img/placeholders/seira-wp-pack.svg" alt="Seira WP packshot placeholder" loading="lazy" />
+          </div>
+          <div class="variant-body">
+            <h3>Seira WP</h3>
+            <p class="variant-formula">Verticillium lecanii<br> (1 × 10<sup>9</sup> CFU/g) WP</p>
+            <a class="variant-link btn-download" target="_blank" type="button" href="../../docs/seira-wp-tds.pdf">
+              Download technical sheet
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KEY FEATURES ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Why Distributors Choose Seira</span>
+        <h2 class="section-title">Key Features</h2>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-heading">
+            <div class="feature-icon">
+              <span class="material-symbols-outlined">humidity_high</span>
+            </div>
+            <h3>Entomopathogenic Fungus Specialized For</h3>
+          </div>
+          <p>Entomopathogenic fungus specialized for soft-bodied sucking pests</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-heading">
+            <div class="feature-icon">
+              <span class="material-symbols-outlined">science</span>
+            </div>
+            <h3>Entomopathogenic Fungus Specialized For</h3>
+          </div>
+          <p>Entomopathogenic fungus specialized for soft-bodied sucking pests</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-heading">
+            <div class="feature-icon">
+              <span class="material-symbols-outlined">handshake</span>
+            </div>
+            <h3>Entomopathogenic Fungus Specialized For</h3>
+          </div>
+          <p>Entomopathogenic fungus specialized for soft-bodied sucking pests</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-heading">
+            <div class="feature-icon">
+              <span class="material-symbols-outlined">description</span>
+            </div>
+            <h3>Entomopathogenic Fungus Specialized For</h3>
+          </div>
+          <p>Entomopathogenic fungus specialized for soft-bodied sucking pests</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MODE OF ACTION ===== -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Mode of Action</span>
+        <h2 class="section-title">Verticillium lecanii conidia adhere to the insect cuticle, germinate, and penetrate by enz...</h2>
+      </div>
+      <div class="image-placeholder wide">
+
+        <img src="../../assets/img/placeholders/seira-mode.svg" alt="Mode of action visual placeholder" loading="lazy" />
+
+      </div>
+      <p class="moa-description">Verticillium lecanii conidia adhere to the insect cuticle, germinate, and penetrate by enzymatic degradation involving chitinases, proteases, and lipases. The fungus colonizes the host internally, produces suppressive metabolites, and ultimately kills the insect before sporulating externally under favorable humidity.</p>
+    </div>
+  </section>
+
+  <!-- ===== PEST & CROP COVERAGE ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="coverage-grid">
+        <div class="coverage-card">
+          <div class="section-header align-left">
+            <span class="section-subtitle">Pests Controlled</span>
+            <h2 class="section-title">Target Spectrum</h2>
+          </div>
+          <ul class="coverage-list">
+            <li>Aphids</li>
+            <li>Whiteflies</li>
+            <li>Thrips</li>
+            <li>Mealybugs</li>
+            <li>Scale Crawlers</li>
+          </ul>
+        </div>
+        <div class="coverage-card">
+          <div class="section-header align-left">
+            <span class="section-subtitle">Program Benefits</span>
+            <h2 class="section-title">Secondary Advantages</h2>
+          </div>
+          <ul class="coverage-list">
+            <li>Supports residue-sensitive export programs</li>
+            <li>Enhances biological rotations with Beauveria and botanical partners</li>
+            <li>Favorable REI and PPE requirements</li>
+            <li>Documentation for organic certifications</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section-header align-left crops-header">
+        <span class="section-subtitle">Crops Covered</span>
+        <h2 class="section-title">Validated across greenhouse and high-value crops</h2>
+      </div>
+      <div class="crop-grid">
+        <span>Greenhouse vegetables: tomato, cucumber, peppers</span>
+        <span>Ornamentals and nursery stock</span>
+        <span>Berries and small fruits</span>
+        <span>Tea, coffee, and spice plantations</span>
+        <span>Protected herbs and leafy greens</span>
+        <span>Field vegetables under IPM programs</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DOSAGE & DILUTION ===== -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Dosage &amp; Dilution</span>
+        <h2 class="section-title">Seira application guidance</h2>
+      </div>
+
+      
+
+      <div class="dosage-table-wrapper">
+        <h3 class="dosage-heading">Seira &ndash; Verticillium lecanii 1 × 10⁸ CFU/g WP</h3>
+        <div class="dosage-table-scroll">
+          <table class="dosage-table">
+            <thead>
+              <tr>
+                <th>Crop Stage</th>
+                <th>Dose per Acre</th>
+                <th>Water Volume</th>
+                <th>Application Method</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>At first appearance of sucking pest colonies</td>
+                <td>500&ndash;750 g/acre</td>
+                <td>150&ndash;200 L</td>
+                <td>Foliar spray under humid, cooler conditions</td>
+              </tr>
+              <tr>
+                <td>Moderate canopy infestation</td>
+                <td>750&ndash;1000 g/acre</td>
+                <td>180&ndash;220 L</td>
+                <td>Foliar spray with complete coverage of colony sites</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="dosage-table-wrapper">
+        <h3 class="dosage-heading">Application Timing &amp; Frequency</h3>
+        <div class="dosage-table-scroll">
+          <table class="dosage-table">
+            <thead>
+              <tr>
+                <th>Application Timing</th>
+                <th>Frequency</th>
+                <th>Recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>At early infestation with adequate humidity</td>
+                <td>Repeat every 7-10 days</td>
+                <td>Apply in the evening or early morning to improve infection success.</td>
+              </tr>
+              <tr>
+                <td>During repeated pest emergence</td>
+                <td>2-3 applications</td>
+                <td>Avoid long intervals where new colonies can establish between sprays.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    
+    </div>
+  </section>
+
+  
+  <!-- ===== PROBLEM / SOLUTION ===== -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Agronomic Challenges</span>
+        <h2 class="section-title">Problem &amp; Solution</h2>
+      </div>
+      <div class="ps-grid">
+          <div class="ps-block">
+            <div class="ps-problem">
+              <span class="material-symbols-outlined">warning</span>
+              <div>
+                <h4>Problem</h4>
+                <p>Whiteflies and aphids continue to colonize the lower canopy.</p>
+              </div>
+            </div>
+            <div class="ps-solution">
+              <span class="material-symbols-outlined">check_circle</span>
+              <div>
+                <h4>Solution</h4>
+                <p>Use humid-period applications to improve spore germination and biological infection.</p>
+              </div>
+            </div>
+          </div>
+          <div class="ps-block">
+            <div class="ps-problem">
+              <span class="material-symbols-outlined">warning</span>
+              <div>
+                <h4>Problem</h4>
+                <p>Soft-bodied pests recover after single microbial sprays.</p>
+              </div>
+            </div>
+            <div class="ps-solution">
+              <span class="material-symbols-outlined">check_circle</span>
+              <div>
+                <h4>Solution</h4>
+                <p>Repeat at short intervals to expose fresh colonies and newly emerged stages.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <p class="tech-summary">V. lecanii WP positioned for biological suppression of sucking pest colonies in humid canopy environments.</p>
+    </div>
+  </section>
+  <!-- ===== USE SITES & COMPATIBILITY ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Program Fit</span>
+        <h2 class="section-title">Use sites, compatibility, and storage</h2>
+      </div>
+      <div class="use-grid">
+        <div class="use-card">
+          <h3><span class="material-symbols-outlined">map</span> Use Sites</h3>
+          <ul>
+            <li>Greenhouses and net-houses</li>
+            <li>Open-field vegetables and herbs</li>
+            <li>Ornamental nurseries and floriculture</li>
+            <li>Fruit orchards with whitefly pressure</li>
+            <li>Protected berry production</li>
+          </ul>
+        </div>
+        <div class="use-card">
+          <h3><span class="material-symbols-outlined">science</span> Compatibility</h3>
+          <ul>
+            <li>Avoid mixing with fungicides, bactericides, strong oxidizers, alkaline materials, or concentrated salts.</li>
+          </ul>
+        </div>
+        <div class="use-card">
+          <h3><span class="material-symbols-outlined">inventory</span> Shelf Life &amp; Storage</h3>
+          <ul>
+            <li>Viable conidial load: 1 × 10⁸ CFU/g.</li>
+            <li>Typical shelf life: 12 months in the unopened pack under cool, dry storage below 25°C and away from sunlight.</li>
+            <li>Store sealed in a cool, dry, shaded place and avoid heat, sunlight, and moisture that reduce viability.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="section cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Build greenhouse-ready pest programs with Seira</h2>
+        <p>Align with Kriya to access Verticillium lecanii formulations, global documentation, and contract manufacturing support for premium distributors.</p>
+        <div class="cta-actions">
+          <a href="../../contact.html" class="btn-primary">
+            <span>Contact Sales</span>
+            <span class="material-symbols-outlined">arrow_forward</span>
+          </a>
+          <a href="../../contract-manufacturing.html" class="btn-outline">
+            <span>Contract Manufacturing</span>
+            <span class="material-symbols-outlined">factory</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  
+<footer class="footer">
+  <div class="container">
+    <div class="footer-strip">
+      <div class="footer-brand">
+        <a href="../../index.html" class="footer-logo">
+          <img src="../../assets/img/footer-logo.png" alt="Kriya Ltd" />
+        </a>
+        <p class="footer-brandline">Leading provider of certified organic crop care solutions for sustainable agriculture.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="../../about.html">About</a>
+        <a href="../../index.html#products">Products</a>
+        <a href="../../technology/karyo.html">Technology</a>
+        <a href="../../contact.html">Contact</a>
+      </nav>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/company/108402158/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a href="https://www.youtube.com/@kriyabiosys" class="social-icon" aria-label="YouTube" target="_blank" rel="noopener">
+          <i class="bx bxl-youtube"></i>
+        </a>
+        <a href="https://x.com/kriyabiosys" class="social-icon" aria-label="Twitter" target="_blank" rel="noopener">
+          <i class="bx bxl-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/kriyabiosys/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="/cdn-cgi/l/email-protection#2d44434b426d465f44544c03415949" class="social-icon" aria-label="Email">
+          <i class="bx bx-envelope"></i>
+        </a>
+        <a href="https://wa.me/916385848466" class="social-icon" aria-label="WhatsApp" target="_blank" rel="noopener">
+          <i class="bx bxl-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-meta">
+      <p class="footer-disclaimer">For usage/dosage information, refer to the product documentation supplied with each formulation.</p>
+      <div class="footer-legal">
+        <span>© Kriya Ltd 2025</span>
+        <a href="../../policies.html#trademark">Trademark</a>
+        <a href="../../policies.html#privacy">Privacy</a>
+        <a href="../../policies.html#responsible-use">Responsible Use</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <button class="back-to-top" id="backToTop">
+    <span class="material-symbols-outlined">arrow_upward</span>
+    <span class="back-to-top-text">Back to top</span>
+  </button>
+
+  <script data-cfasync="false" s

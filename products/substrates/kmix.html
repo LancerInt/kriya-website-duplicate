@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K-Mix | Karanja Cake Organic Substrate</title>
+  <link rel="icon" href="/assets/img/Fav.svg">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+<body class="product-page">
+    <!-- ===== PREMIUM NAVBAR ===== -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="../../index.html" class="nav-logo">
+        <img src="../../assets/img/logo.png" alt="Kriya Ltd" />
+      </a>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="../../index.html" class="nav-link">Home</a></li>
+          <li><a href="../../about.html" class="nav-link">About</a></li>
+
+          <!-- Products Dropdown -->
+          <li class="nav-item dropdown dropdown-products">
+            <a href="../../index.html#products" class="nav-link dropbtn">
+              <span>Products</span>
+              <span class="material-symbols-outlined">expand_more</span>
+            </a>
+            <div class="dropdown-content products-dropdown">
+              <div class="categories-menu">
+                <div class="category-item">
+                  <a href="../../products/biocontrol.html" class="category-link">
+                    <span class="submenu-icon material-symbols-outlined">pest_control</span>
+                    <div class="category-info">
+                      <h4>Biocontrol</h4>
+                      <p>Natural pest management</p>
+                    </div>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </a>
+                  <div class="submenu">
+                    <div class="submenu-header">
+                      <h5>Biocontrol Products</h5>
+                      <p>Botanical and microbial actives</p>
+                    </div>
+                    <div class="submenu-grid">
+                      <a href="../../products/biocontrol/ecoza.html" data-tooltip="Azadirachtin">Ecoza</a>
+                      <a href="../../products/biocontrol/margoshine.html" data-tooltip="Neem Oil">Margoshine</a>
+                      <a href="../../products/biocontrol/k-guard.html" data-tooltip="Karanjin">K-Guard</a>
+                      <a href="../../products/biocontrol/weedx.html" data-tooltip="MCT Weed Killer">WeedX</a>
+                      <a href="../../products/biocontrol/spindura.html" data-tooltip="Spinosad">Spindura</a>
+                      <a href="../../products/biocontrol/margospin.html" data-tooltip="Neem Oil + Spinosad">MargoSpin</a>
+                      <a href="../../products/biocontrol/admira.html" data-tooltip="Essential Oil Formulation">Admira</a>
+                      <a href="../../products/biocontrol/mycova.html" data-tooltip="Beauveria bassiana">Mycova</a>
+                      <a href="../../products/biocontrol/rexora.html" data-tooltip="Metarhizium anisopliae">Rexora</a>
+                      <a href="../../products/biocontrol/biota.html" data-tooltip="Trichoderma viride / harzianum">Biota (V/H)</a>
+                      <a href="../../products/biocontrol/seira.html" data-tooltip="Verticillium lecanii">Seira</a>
+                      <a href="../../products/biocontrol/encilo.html" data-tooltip="Paecilomyces lilacinus">EnCilo</a>
+                      <a href="../../products/biocontrol/neuvita.html" data-tooltip="Ampelomyces quisqualis">Neuvita</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="category-item">
+                  <a href="../../products/biostimulants.html" class="category-link">
+                    <span class="submenu-icon material-symbols-outlined">eco</span>
+                    <div class="category-info">
+                      <h4>Biostimulants</h4>
+                      <p>Plant resilience &amp; nutrition</p>
+                    </div>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </a>
+                  <div class="submenu">
+                    <div class="submenu-header">
+                      <h5>Biostimulant Products</h5>
+                      <p>Microbial &amp; botanical enhancers</p>
+                    </div>
+                    <div class="submenu-grid">
+                      <a href="../../products/biostimulants/igreen.html" data-tooltip="Microbial consortium">IGreen</a>
+                      <a href="../../products/biostimulants/zenita.html" data-tooltip="Peptide formulation">Zenita</a>
+                      <a href="../../products/biostimulants/cropsia.html" data-tooltip="Plant extracts formulation">Cropsia</a>
+                      <a href="../../products/biostimulants/enrhize.html" data-tooltip="Arbuscular Mycorrhizal">EnRhize</a>
+                      <a href="../../products/biostimulants/orgocare.html" data-tooltip="Plant based Antitranspirants">Orgocare</a>
+                      <a href="../../products/biostimulants/blooma.html" data-tooltip="Seaweed formulation">Blooma</a>
+                      <a href="../../products/biostimulants/envicta.html" data-tooltip="Humic &amp; fulvic formulation">Envicta</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="category-item">
+                  <a href="../../products/substrates.html" class="category-link">
+                    <span class="submenu-icon material-symbols-outlined">compost</span>
+                    <div class="category-info">
+                      <h4>Substrates</h4>
+                      <p>Soil amendment solutions</p>
+                    </div>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </a>
+                  <div class="submenu">
+                    <div class="submenu-header">
+                      <h5>Substrate Products</h5>
+                      <p>Soil health &amp; seed treatments</p>
+                    </div>
+                    <div class="submenu-grid">
+                      <a href="../../products/substrates/maxineem.html" data-tooltip="Neem cake">Maxineem</a>
+                      <a href="../../products/substrates/kmix.html" data-tooltip="Karanja cake">K-Mix</a>
+                      <a href="../../products/substrates/mystica.html" data-tooltip="Wetting &amp; spreading agents">Mystica</a>
+                      <a href="../../products/substrates/engrow.html" data-tooltip="Seed coating">Engrow</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="category-item">
+                  <a href="../../products/home-garden.html" class="category-link">
+                    <span class="submenu-icon material-symbols-outlined">yard</span>
+                    <div class="category-info">
+                      <h4>Home &amp; Garden</h4>
+                      <p>Consumer-ready packs</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- Technology Dropdown -->
+          <li class="nav-item dropdown dropdown-tech">
+            <a href="../../technology/karyo.html" class="nav-link dropbtn">
+              <span>Technology</span>
+              <span class="material-symbols-outlined">expand_more</span>
+            </a>
+            <div class="dropdown-content tech-dropdown">
+              <div class="tech-menu-compact">
+                <a href="../../technology/karyo.html" class="tech-item-compact" data-tooltip="Delivery Platform">
+                  <div class="tech-content-compact">
+                    <h5>Karyo Technology</h5>
+                    <p>Formulation technology</p>
+                  </div>
+                </a>
+
+                <a href="../../technology/wynn.html" class="tech-item-compact" data-tooltip="Microbial Platform">
+                  <div class="tech-content-compact">
+                    <h5>Wynn Formulation</h5>
+                    <p>Microbial innovation</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li><a href="../../contract-manufacturing.html" class="nav-link">Manufacturing</a></li>
+          <li><a href="../../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE HERO ===== -->
+  <section class="page-hero interior-hero product-hero">
+    <div class="container">
+      <div class="product-hero-layout">
+        <div class="page-hero-content product-hero-copy">
+          <span class="page-hero-eyebrow">Substrate Portfolio</span>
+          <h1 class="page-hero-title">K-Mix&trade; Karanja Cake &mdash; Organic Substrate</h1>
+          <div class="hero-metrics">
+            <div class="hero-metric hero-metric-compact">
+              <div class="hero-metric-text">
+                <strong>>2% karanjin | Granular / Powder</strong>
+              </div>
+            </div>
+            <div class="hero-metric hero-metric-compact">
+              <div class="hero-metric-text">
+                <strong>Karanja cake substrate delivering organic NPK and </strong>
+              </div>
+            </div>
+            <div class="hero-metric hero-metric-compact">
+              <div class="hero-metric-text">
+                <strong>Suppresses root-knot and lesion nematodes through </strong>
+              </div>
+            </div>
+          </div>
+          <div class="page-hero-actions">
+            <a href="../../contact.html" class="btn-primary">
+              <span>Contact Sales</span>
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </a>
+            <a href="../../contract-manufacturing.html" class="btn-outline">
+              <span>Scale With Kriya</span>
+              <span class="material-symbols-outlined">factory</span>
+            </a>
+          </div>
+        </div>
+        <div class="product-hero-visual">
+          <figure class="page-hero-image image-placeholder square">
+
+            <img src="../../assets/img/placeholders/kmix-hero.svg" alt="K-Mix product imagery placeholder" loading="lazy" />
+
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCT OVERVIEW ===== -->
+  <section class="section product-overview">
+    <div class="container">
+      <div class="product-overview-grid">
+        <div class="overview-copy">
+          <div class="section-header align-left">
+            <span class="section-subtitle">Product Overview</span>
+            <h2 class="section-title">Karanja Cake for organic substrate</h2>
+          </div>
+          <p>K-Mix delivers the agronomic value of karanja (Pongamia pinnata) cake, providing organic nitrogen, carbon, and bioactive compounds that suppress nematodes and soil pests. The substrate releases nutrients gradually while enhancing soil organic matter and microbial diversity. Precision processing controls particle size and moisture, ensuring easy application in field, plantation, and nursery systems. K-Mix enables distributors to offer a sustainable soil amendment with proven pest-suppressive benefits.</p>
+        </div>
+        <div class="overview-insights">
+          <div class="insight-card">
+            <span class="material-symbols-outlined">biotech</span>
+            <div>
+              <h3>Karanja cake substrate delivering</h3>
+              <p>Karanja cake substrate delivering organic NPK and nematicidal karanjin metabolites</p>
+            </div>
+          </div>
+          <div class="insight-card">
+            <span class="material-symbols-outlined">compost</span>
+            <div>
+              <h3>Suppresses root-knot and lesion</h3>
+              <p>Suppresses root-knot and lesion nematodes through sustained bioactive release</p>
+            </div>
+          </div>
+          <div class="insight-card">
+            <span class="material-symbols-outlined">workspace_premium</span>
+            <div>
+              <h3>Improves soil microbial diversity</h3>
+              <p>Improves soil microbial diversity, carbon content, and long-term soil structure</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VARIANTS ===== -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">K-Mix Format</span>
+        <h2 class="section-title">Granular and powder grades for versatile application</h2>
+        <p class="section-description">Tailored for field broadcasting, localized banding, or incorporation into nursery media.</p>
+      </div>
+      <div class="variant-grid">
+        <article class="variant-card">
+          <div class="variant-packshot">
+            <img src="../../assets/img/placeholders/kmix-granular-pack.svg" alt="K-Mix granular packshot placeholder" loading="lazy" />
+          </div>
+          <div class="variant-body">
+            <h3>K-Mix Granular</h3>
+            <p class="variant-formula">Karanja Cake (>2% karanjin) &mdash; Granular / Powder</p>
+            <a class="variant-link btn-download" target="_blank" type="button" href="../../docs/kmix-tds.pdf">
+              Download technical sheet
+            </a>
+          </div>
+        </article>
+        <article class="variant-card">
+          <div class="variant-packshot">
+            <img src="../../assets/img/placeholders/kmix-powder-pack.svg" alt="K-Mix powder packshot placeholder" loading="lazy" />
+          </div>
+          <div class="variant-body">
+            <h3>K-Mix Powder</h3>
+            <p class="variant-formula">Karanja Cake (>2% karanjin) &mdash; Granular / Powder</p>
+            <a class="variant-link btn-download" target="_blank" type="button" href="../../docs/kmix-tds.pdf">
+              Download technical sheet
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY DISTRIBUTORS ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Why Distributors Choose K-Mix</span>
+        <h2 class="section-title">Dual benefit substrate for nutrition and nematode management</h2>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <span class="material-symbols-outlined">compost</span>
+          </div>
+          <div>
+            <h3>Karanja cake substrate delivering</h3>
+            <p>Karanja cake substrate delivering organic NPK and nematicidal karanjin metabolites</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <span class="material-symbols-outlined">bug_report</span>
+          </div>
+          <div>
+            <h3>Suppresses root-knot and lesion</h3>
+            <p>Suppresses root-knot and lesion nematodes through sustained bioactive release</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <span class="material-symbols-outlined">group_work</span>
+          </div>
+          <div>
+            <h3>Improves soil microbial diversity</h3>
+            <p>Improves soil microbial diversity, carbon content, and long-term soil structure</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <span class="material-symbols-outlined">water_drop</span>
+          </div>
+          <div>
+            <h3>Flexible deployment as broadcast</h3>
+            <p>Flexible deployment as broadcast amendment, basin application, or nursery media blend</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MODE OF ACTION ===== -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Mode of Action</span>
+        <h2 class="section-title">K-Mix releases organic nutrients and karanjin limonoids as the karanja...</h2>
+      </div>
+      <div class="image-placeholder wide">
+
+        <img src="../../assets/img/placeholders/kmix-mode.svg" alt="Mode of action illustration placeholder" loading="lazy" />
+
+      </div>
+    </div>
+      <p class="moa-description" style="text-align:justify;">K-Mix releases organic nutrients and karanjin limonoids as the karanja cake decomposes in the soil. Karanjin and allied furanoflavonoids disrupt nematode feeding behaviour and inhibit egg hatching, reducing populations of plant-parasitic nematodes around feeder roots. The organic matter fraction stimulates beneficial soil microbes, improves water-holding capacity, and builds soil aggregation. Gradual nutrient release supports steady crop nutrition while nematicidal activity persists through the decomposition cycle.</p>
+  </section>
+
+  <!-- ===== COVERAGE ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="coverage-grid">
+        <div class="coverage-card">
+          <div class="section-header align-left">
+            <span class="section-subtitle">Primary Benefits</span>
+            <h2 class="section-title">Strengthens soil while suppressing pests</h2>
+          </div>
+          <ul class="coverage-list">
+            <li>plant-parasitic nematodes (root-knot, lesion)</li>
+            <li>soil-borne insects</li>
+            <li>soil organic matter improvement</li>
+            <li>soil microbial diversity</li>
+            <li>gradual NPK nutrition</li>
+          </ul>
+        </div>
+        <div class="coverage-card">
+          <div class="section-header align-left">
+            <span class="section-subtitle">Target Use</span>
+            <h2 class="section-title">Designed for nematode-prone production systems</h2>
+          </div>
+          <ul class="coverage-list">
+            <li>Vegetables and spices affected by nematodes.</li>
+            <li>Plantation crops including tea, coffee, pepper, and cardamom.</li>
+            <li>Nurseries and potting mixes requiring sanitary media.</li>
+            <li>Regenerative agriculture and organic field programs.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section-header align-left crops-header">
+        <span class="section-subtitle">Crops &amp; Systems</span>
+        <h2 class="section-title">Applicable across horticulture and plantations</h2>
+      </div>
+      <div class="crop-grid">
+        <span>Vegetables: tomato, chili, cucurbits, okra</span>
+        <span>Plantations: tea, coffee, pepper, rubber</span>
+        <span>Fruit crops: banana, citrus, pomegranate</span>
+        <span>Nurseries and polyhouse potting mixes</span>
+        <span>Field crops under nematode pressure</span>
+        <span>Landscape and turf renovation programs</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DOSAGE & APPLICATION ===== -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Dosage &amp; Application</span>
+        <h2 class="section-title">K-Mix usage guidance</h2>
+      </div>
+
+      <div class="dosage-table-wrapper">
+        <div class="dosage-table-scroll">
+          <table class="dosage-table">
+            <thead>
+              <tr>
+                <th>Application</th>
+                <th>Dosage</th>
+                <th>Method</th>
+                <th>Application Interval</th>
+                <th>Guidance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Field crops & vegetables</td>
+                <td>100&ndash;200 kg/acre</td>
+                <td>Broadcast and incorporate into topsoil</td>
+                <td>At planting or pre-plant preparation</td>
+                <td>Moisten soil after application for faster microbial activation.</td>
+              </tr>
+              <tr>
+                <td>Plantation basins</td>
+                <td>3&ndash;6 kg/tree/application</td>
+                <td>Apply in basin and cover with soil</td>
+                <td>Every 3–4 months</td>
+                <td>Split doses around drip line; combine with compost for best results.</td>
+              </tr>
+              <tr>
+                <td>Nursery media</td>
+                <td>5&ndash;8% of media volume</td>
+                <td>Blend uniformly in potting mix</td>
+                <td>At media preparation</td>
+                <td>Use powder grade for seed trays and plug production.</td>
+              </tr>
+              <tr>
+                <td>Spot treatment</td>
+                <td>250&ndash;500 g per planting hole</td>
+                <td>Mix with soil at transplanting</td>
+                <td>At transplanting</td>
+                <td>Ideal for vegetable seedlings and orchard replants.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="dosage-footnote">Adjust rates based on soil analysis, crop stage, and nematode pressure.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROBLEM / SOLUTION ===== -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Agronomic Challenges</span>
+        <h2 class="section-title">Problem &amp; Solution</h2>
+      </div>
+      <div class="ps-grid">
+          <div class="ps-block">
+            <div class="ps-problem">
+              <span class="material-symbols-outlined">warning</span>
+              <div><h4>Problem</h4><p>Nematode populations are limiting root function and crop yields.</p></div>
+            </div>
+            <div class="ps-solution">
+              <span class="material-symbols-outlined">check_circle</span>
+              <div><h4>Solution</h4><p>Apply K-Mix at planting to deliver karanjin compounds that suppress nematode feeding and egg hatching in the root zone.</p></div>
+            </div>
+          </div>
+          <div class="ps-block">
+            <div class="ps-problem">
+              <span class="material-symbols-outlined">warning</span>
+              <div><h4>Problem</h4><p>Soil biology is degraded and nutrient release is slow in intensive production.</p></div>
+            </div>
+            <div class="ps-solution">
+              <span class="material-symbols-outlined">check_circle</span>
+              <div><h4>Solution</h4><p>Use K-Mix to replenish organic carbon, stimulate beneficial microbes, and improve nutrient availability through sustained decomposition.</p></div>
+            </div>
+          </div>
+      </div>
+      <p class="tech-summary" style="text-align:justify;">Karanja cake substrate positioned for dual-function nematode suppression and organic soil nutrition in horticulture, plantation, and nursery programs.</p>
+    </div>
+  </section>
+
+  <!-- ===== PROGRAM FIT ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Program Fit</span>
+        <h2 class="section-title">Use sites, compatibility, and storage</h2>
+      </div>
+      <div class="use-grid">
+        <div class="use-card">
+          <h3><span class="material-symbols-outlined">map</span> Use Sites</h3>
+          <ul>
+            <li>Horticulture, plantations, and regenerative agriculture systems.</li>
+            <li>Nursery operations requiring clean, pest-suppressive media.</li>
+            <li>Integrated nematode management programs.</li>
+          </ul>
+        </div>
+        <div class="use-card">
+          <h3><span class="material-symbols-outlined">science</span> Compatibility</h3>
+          <ul>
+            <li>Compatible with biofertilizers, compost, and microbial inoculants.</li>
+            <li>avoid co-application with strongly alkaline materials immediately after incorporation.</li>
+          </ul>
+        </div>
+        <div class="use-card">
+          <h3><span class="material-symbols-outlined">inventory</span> Shelf Life &amp; Storage</h3>
+          <ul>
+            <li>Standardized for >2% karanjin content; organic nitrogen: 3–5%.</li>
+            <li>Typical shelf life: 24 months in the original sealed bag under dry, ventilated, shaded storage.</li>
+            <li>Store in dry, ventilated warehouses. Keep bags sealed to preserve bioactive karanjin content. Avoid direct sunlight and high humidity.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="section cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Deliver karanja-powered soil protection with K-Mix</h2>
+        <p>Partner with Kriya to offer distributors a proven substrate for soil fertility and nematode suppression backed by technical support.</p>
+        <div class="cta-actions">
+          <a href="../../contact.html" class="btn-primary">
+            <span>Contact Sales</span>
+            <span class="material-symbols-outlined">arrow_forward</span>
+          </a>
+          <a href="../../contract-manufacturing.html" class="btn-outline">
+            <span>Contract Manufacturing</span>
+            <span class="material-symbols-outlined">factory</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  
+<footer class="footer">
+  <div class="container">
+    <div class="footer-strip">
+      <div class="footer-brand">
+        <a href="../../index.html" class="footer-logo">
+          <img src="../../assets/img/footer-logo.png" alt="Kriya Ltd" />
+        </a>
+        <p class="footer-brandline">Leading provider of certified organic crop care solutions for sustainable agriculture.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="../../about.html">About</a>
+        <a href="../../index.html#products">Products</a>
+        <a href="../../technology/karyo.html">Technology</a>
+        <a href="../../contact.html">Contact</a>
+      </nav>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/company/108402158/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a href="https://www.youtube.com/@kriyabiosys" class="social-icon" aria-label="YouTube" target="_blank" rel="noopener">
+          <i class="bx bxl-youtube"></i>
+        </a>
+        <a href="https://x.com/kriyabiosys" class="social-icon" aria-label="Twitter" target="_blank" rel="noopener">
+          <i class="bx bxl-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/kriyabiosys/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="/cdn-cgi/l/email-protection#ea83848c85aa819883938bc4869e8e" class="social-icon" aria-label="Email">
+          <i class="bx bx-envelope"></i>
+        </a>
+        <a href="https://wa.me/916385848466" class="social-icon" aria-label="WhatsApp" target="_blank" rel="noopener">
+          <i class="bx bxl-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-meta">
+      <p class="footer-disclaimer">For usage/dosage information, refer to the product documentation supplied with each formulation.</p>
+      <div class="footer-legal">
+        <span>© Kriya Ltd 2025</span>
+        <a href="../../policies.html#trademark">Trademark</a>
+        <a href="../../policies.html#privacy">Privacy</a>
+        <a href="../../policies.html#responsible-use">Responsible Use</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <button class="back-to-top" id="backToTop">
+    <span class="material-symbols-outlined">arrow_upward</span>
+    <span class="back-to-top-text">Back to top</span>
+  </button>
+
+  <script data-cfasync="false" s

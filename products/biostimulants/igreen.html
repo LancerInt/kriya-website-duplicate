@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IGreen NPK | Microbial consortium Biofertilizer</title>
+  <link rel="icon" href="/assets/img/Fav.svg">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+<body class="product-page">
+    <!-- ===== PREMIUM NAVBAR ===== -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="../../index.html" class="nav-logo">
+        <img src="../../assets/img/logo.png" alt="Kriya Ltd" />
+      </a>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="../../index.html" class="nav-link">Home</a></li>
+          <li><a href="../../about.html" class="nav-link">About</a></li>
+
+          <!-- Products Dropdown -->
+          <li class="nav-item dropdown dropdown-products">
+            <a href="../../index.html#products" class="nav-link dropbtn">
+              <span>Products</span>
+              <span class="material-symbols-outlined">expand_more</span>
+            </a>
+            <div class="dropdown-content products-dropdown">
+              <div class="categories-menu">
+                <div class="category-item">
+                  <a href="../../products/biocontrol.html" class="category-link">
+                    <span class="submenu-icon material-symbols-outlined">pest_control</span>
+                    <div class="category-info">
+                      <h4>Biocontrol</h4>
+                      <p>Natural pest management</p>
+                    </div>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </a>
+                  <div class="submenu">
+                    <div class="submenu-header">
+                      <h5>Biocontrol Products</h5>
+                      <p>Botanical and microbial actives</p>
+                    </div>
+                    <div class="submenu-grid">
+                      <a href="../../products/biocontrol/ecoza.html" data-tooltip="Azadirachtin">Ecoza</a>
+                      <a href="../../products/biocontrol/margoshine.html" data-tooltip="Neem Oil">Margoshine</a>
+                      <a href="../../products/biocontrol/k-guard.html" data-tooltip="Karanjin">K-Guard</a>
+                      <a href="../../products/biocontrol/weedx.html" data-tooltip="MCT Weed Killer">WeedX</a>
+                      <a href="../../products/biocontrol/spindura.html" data-tooltip="Spinosad">Spindura</a>
+                      <a href="../../products/biocontrol/margospin.html" data-tooltip="Neem Oil + Spinosad">MargoSpin</a>
+                      <a href="../../products/biocontrol/admira.html" data-tooltip="Essential Oil Formulation">Admira</a>
+                      <a href="../../products/biocontrol/mycova.html" data-tooltip="Beauveria bassiana">Mycova</a>
+                      <a href="../../products/biocontrol/rexora.html" data-tooltip="Metarhizium anisopliae">Rexora</a>
+                      <a href="../../products/biocontrol/biota.html" data-tooltip="Trichoderma viride / harzianum">Biota (V/H)</a>
+                      <a href="../../products/biocontrol/seira.html" data-tooltip="Verticillium lecanii">Seira</a>
+                      <a href="../../products/biocontrol/encilo.html" data-tooltip="Paecilomyces lilacinus">EnCilo</a>
+                      <a href="../../products/biocontrol/neuvita.html" data-tooltip="Ampelomyces quisqualis">Neuvita</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="category-item">
+                  <a href="../../products/biostimulants.html" class="category-link">
+                    <span class="submenu-icon material-symbols-outlined">eco</span>
+                    <div class="category-info">
+                      <h4>Biostimulants</h4>
+                      <p>Plant resilience &amp; nutrition</p>
+                    </div>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </a>
+                  <div class="submenu">
+                    <div class="submenu-header">
+                      <h5>Biostimulant Products</h5>
+                      <p>Microbial &amp; botanical enhancers</p>
+                    </div>
+                    <div class="submenu-grid">
+                      <a href="../../products/biostimulants/igreen.html" data-tooltip="Microbial consortium">IGreen</a>
+                      <a href="../../products/biostimulants/zenita.html" data-tooltip="Peptide formulation">Zenita</a>
+                      <a href="../../products/biostimulants/cropsia.html" data-tooltip="Plant extracts formulation">Cropsia</a>
+                      <a href="../../products/biostimulants/enrhize.html" data-tooltip="Arbuscular Mycorrhizal">EnRhize</a>
+                      <a href="../../products/biostimulants/orgocare.html" data-tooltip="Plant based Antitranspirants">Orgocare</a>
+                      <a href="../../products/biostimulants/blooma.html" data-tooltip="Seaweed formulation">Blooma</a>
+                      <a href="../../products/biostimulants/envicta.html" data-tooltip="Humic &amp; fulvic formulation">Envicta</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="category-item">
+                  <a href="../../products/substrates.html" class="category-link">
+                    <span class="submenu-icon material-symbols-outlined">compost</span>
+                    <div class="category-info">
+                      <h4>Substrates</h4>
+                      <p>Soil amendment solutions</p>
+                    </div>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                  </a>
+                  <div class="submenu">
+                    <div class="submenu-header">
+                      <h5>Substrate Products</h5>
+                      <p>Soil health &amp; seed treatments</p>
+                    </div>
+                    <div class="submenu-grid">
+                      <a href="../../products/substrates/maxineem.html" data-tooltip="Neem cake">Maxineem</a>
+                      <a href="../../products/substrates/kmix.html" data-tooltip="Karanja cake">K-Mix</a>
+                      <a href="../../products/substrates/mystica.html" data-tooltip="Wetting &amp; spreading agents">Mystica</a>
+                      <a href="../../products/substrates/engrow.html" data-tooltip="Seed coating">Engrow</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="category-item">
+                  <a href="../../products/home-garden.html" class="category-link">
+                    <span class="submenu-icon material-symbols-outlined">yard</span>
+                    <div class="category-info">
+                      <h4>Home &amp; Garden</h4>
+                      <p>Consumer-ready packs</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- Technology Dropdown -->
+          <li class="nav-item dropdown dropdown-tech">
+            <a href="../../technology/karyo.html" class="nav-link dropbtn">
+              <span>Technology</span>
+              <span class="material-symbols-outlined">expand_more</span>
+            </a>
+            <div class="dropdown-content tech-dropdown">
+              <div class="tech-menu-compact">
+                <a href="../../technology/karyo.html" class="tech-item-compact" data-tooltip="Delivery Platform">
+                  <div class="tech-content-compact">
+                    <h5>Karyo Technology</h5>
+                    <p>Formulation technology</p>
+                  </div>
+                </a>
+
+                <a href="../../technology/wynn.html" class="tech-item-compact" data-tooltip="Microbial Platform">
+                  <div class="tech-content-compact">
+                    <h5>Wynn Formulation</h5>
+                    <p>Microbial innovation</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li><a href="../../contract-manufacturing.html" class="nav-link">Manufacturing</a></li>
+          <li><a href="../../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE HERO ===== -->
+  <section class="page-hero interior-hero product-hero">
+    <div class="container">
+      <div class="product-hero-layout">
+        <div class="page-hero-content product-hero-copy">
+          <span class="page-hero-eyebrow">Biostimulant Portfolio</span>
+          <h1 class="page-hero-title">IGreen NPK&trade; Microbial consortium &mdash; Biofertilizer</h1>
+          <div class="hero-metrics">
+            <div class="hero-metric hero-metric-compact">
+              <div class="hero-metric-text">
+                <strong>1 × 10⁹ CFU/g WP</strong>
+              </div>
+            </div>
+            <div class="hero-metric hero-metric-compact">
+              <div class="hero-metric-text">
+                <strong>Multi-functional consortium for N fixati</strong>
+              </div>
+            </div>
+            <div class="hero-metric hero-metric-compact">
+              <div class="hero-metric-text">
+                <strong>Improves rhizosphere nutrient cycling an</strong>
+              </div>
+            </div>
+          </div>
+          <div class="page-hero-actions">
+            <a href="../../contact.html" class="btn-primary">
+              <span>Contact Sales</span>
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </a>
+            <a href="../../contract-manufacturing.html" class="btn-outline">
+              <span>Scale With Kriya</span>
+              <span class="material-symbols-outlined">factory</span>
+            </a>
+          </div>
+        </div>
+        <div class="product-hero-visual">
+          <figure class="page-hero-image image-placeholder square">
+
+            <img src="../../assets/img/placeholders/igreen-hero.svg" alt="IGreen product imagery placeholder" loading="lazy" />
+
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCT OVERVIEW ===== -->
+  <section class="section product-overview">
+    <div class="container">
+      <div class="product-overview-grid">
+        <div class="overview-copy">
+          <div class="section-header align-left">
+            <span class="section-subtitle">Product Overview</span>
+            <h2 class="section-title">Microbial consortium for biofertilizer programs</h2>
+          </div>
+          <p>IGreen NPK is a broad-spectrum microbial consortium biofertilizer designed to improve nitrogen, phosphorus, and potassium availability in the rhizosphere. It is suited to integrated nutrient programs where fertilizer-use efficiency and soil biological activity need reinforcement.</p>
+        </div>
+        <div class="overview-insights">
+          <div class="insight-card">
+            <span class="material-symbols-outlined">psychiatry</span>
+            <div>
+              <h3>Multi-Functional Consortium For N</h3>
+              <p>Multi-functional consortium for N fixation and P/K mobilization</p>
+            </div>
+          </div>
+          <div class="insight-card">
+            <span class="material-symbols-outlined">inventory_2</span>
+            <div>
+              <h3>Improves Rhizosphere Nutrient Cycling</h3>
+              <p>Improves rhizosphere nutrient cycling and root-zone activity</p>
+            </div>
+          </div>
+          <div class="insight-card">
+            <span class="material-symbols-outlined">workspace_premium</span>
+            <div>
+              <h3>Supports Better Fertilizer-Use Efficiency</h3>
+              <p>Supports better fertilizer-use efficiency across major nutrients</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VARIANTS ===== -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">IGreen Line-Up</span>
+        <h2 class="section-title">Consortia tailored to agronomic priorities</h2>
+        <p class="section-description">Four performance variants equip distributors with solutions for nutrient efficiency, soil resilience, and crop vigor.</p>
+      </div>
+      <div class="variant-grid">
+        <article class="variant-card">
+          <div class="variant-packshot">
+            <img src="../../assets/img/placeholders/igreen-npk-pack.svg" alt="IGreen NPK packshot placeholder" loading="lazy" />
+          </div>
+          <div class="variant-body">
+            <h3>IGreen NPK</h3>
+            <p class="variant-formula">Microbial consortium (1 × 10⁹ CFU/g) &mdash; WP</p>
+            <a class="variant-link btn-download" target="_blank" type="button" href="../../docs/igreen-npk-tds.pdf">
+              Download technical sheet
+            </a>
+          </div>
+        </article>
+        <article class="variant-card">
+          <div class="variant-packshot">
+            <img src="../../assets/img/placeholders/igreen-soil-plus-pack.svg" alt="IGreen Soil+ packshot placeholder" loading="lazy" />
+          </div>
+          <div class="variant-body">
+            <h3>IGreen SHIELD</h3>
+            <p class="variant-formula">Microbial consortium (1 × 10⁹ CFU/g) &mdash; WP</p>
+            <a class="variant-link btn-download" target="_blank" type="button" href="../../docs/igreen-soilplus-tds.pdf">
+              Download technical sheet
+            </a>
+          </div>
+        </article>
+        <article class="variant-card">
+          <div class="variant-packshot">
+            <img src="../../assets/img/placeholders/igreen-tres-pack.svg" alt="IGreen Tres packshot placeholder" loading="lazy" />
+          </div>
+          <div class="variant-body">
+            <h3>IGreen N</h3>
+            <p class="variant-formula">Microbial consortium (1 × 10⁹ CFU/g) &mdash; WP</p>
+            <a class="variant-link btn-download" target="_blank" type="button" href="../../docs/igreen-tres-tds.pdf">
+              Download technical sheet
+            </a>
+          </div>
+        </article>
+        <article class="variant-card">
+          <div class="variant-packshot">
+            <img src="../../assets/img/placeholders/igreen-shield-pack.svg" alt="IGreen Shield packshot placeholder" loading="lazy" />
+          </div>
+          <div class="variant-body">
+            <h3>IGreen P</h3>
+            <p class="variant-formula">Microbial consortium (1 × 10⁹ CFU/g) &mdash; WP</p>
+            <a class="variant-link btn-download" target="_blank" type="button" href="../../docs/igreen-shield-tds.pdf">
+              Download technical sheet
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY DISTRIBUTORS ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Why Distributors Choose IGreen</span>
+        <h2 class="section-title">Commercial strength with scientific validation</h2>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <span class="material-symbols-outlined">science</span>
+          </div>
+          <div>
+            <h3>Multi-Functional Consortium For N</h3>
+            <p>Multi-functional consortium for N fixation and P/K mobilization</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <span class="material-symbols-outlined">task_alt</span>
+          </div>
+          <div>
+            <h3>Improves Rhizosphere Nutrient Cycling</h3>
+            <p>Improves rhizosphere nutrient cycling and root-zone activity</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <span class="material-symbols-outlined">hub</span>
+          </div>
+          <div>
+            <h3>Supports Better Fertilizer-Use Efficiency</h3>
+            <p>Supports better fertilizer-use efficiency across major nutrients</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <span class="material-symbols-outlined">eco</span>
+          </div>
+          <div>
+            <h3>Useful As A Basal</h3>
+            <p>Useful as a basal and early vegetative biofertility input</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MODE OF ACTION ===== -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Mode of Action</span>
+        <h2 class="section-title">The microbial consortium colonizes the rhizosphere and root surface, fixes atmospheri...</h2>
+      </div>
+      <div class="image-placeholder wide">
+
+        <img src="../../assets/img/placeholders/igreen-mode.svg" alt="Mode of action illustration placeholder" loading="lazy" />
+
+      </div>
+      <p class="moa-description">The microbial consortium colonizes the rhizosphere and root surface, fixes atmospheric nitrogen through associative N-fixing members, solubilizes bound phosphorus and mobilizes native potassium pools, and drives microbial nutrient cycling in the soil. This combined activity improves nutrient availability, root uptake efficiency, and overall crop nutrition.</p>
+    </div>
+  </section>
+
+  <!-- ===== COVERAGE ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="coverage-grid">
+        <div class="coverage-card">
+          <div class="section-header align-left">
+            <span class="section-subtitle">Primary Benefits</span>
+            <h2 class="section-title">Built for nutrient mobilization and soil health</h2>
+          </div>
+          <ul class="coverage-list">
+            <li>nitrogen availability</li>
+            <li>phosphorus availability</li>
+            <li>potassium mobilization</li>
+            <li>fertilizer-use efficiency</li>
+            <li>rhizosphere activity</li>
+          </ul>
+        </div>
+        <div class="coverage-card">
+          <div class="section-header align-left">
+            <span class="section-subtitle">Pests &amp; Diseases Addressed</span>
+            <h2 class="section-title">Biological suppression of key soil threats</h2>
+          </div>
+          <ul class="coverage-list">
+            <li>Damps-off pathogens (Pythium, Rhizoctonia, Fusarium) in nursery and field settings.</li>
+            <li>Root lesion and root knot nematodes via rhizosphere colonization.</li>
+            <li>Foliar opportunists including mildews and blights when applied as foliar drench.</li>
+            <li>Secondary pests by strengthening plant resilience and metabolite production.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section-header align-left crops-header">
+        <span class="section-subtitle">Crops &amp; Systems</span>
+        <h2 class="section-title">Validated from specialty crops to large-acre programs</h2>
+      </div>
+      <div class="crop-grid">
+        <span>Vegetables: tomato, pepper, cucurbits, leafy greens</span>
+        <span>Field crops: corn, soybean, pulses, cotton</span>
+        <span>Perennials: vineyards, orchards, plantation crops</span>
+        <span>Protected cultivation: hydroponic and greenhouse operations</span>
+        <span>Turf and ornamentals in nursery and landscape channels</span>
+        <span>Seed treatment programs for cereals and oilseeds</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DOSAGE & DILUTION ===== -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Dosage &amp; Dilution</span>
+        <h2 class="section-title">IGreen NPK dosage guidelines</h2>
+      </div>
+
+      
+
+      <div class="dosage-table-wrapper">
+        <h3 class="dosage-heading">IGreen NPK &ndash; Microbial consortium (1 × 10⁹ CFU/g) WP</h3>
+        <div class="dosage-table-scroll">
+          <table class="dosage-table">
+            <thead>
+              <tr>
+                <th>Crop Stage</th>
+                <th>Dose per Acre</th>
+                <th>Water Volume</th>
+                <th>Application Method</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Basal soil application or early crop establishment</td>
+                <td>1.0&ndash;2.0 kg/acre</td>
+                <td>NA; 25&ndash;50 kg compost carrier or drip water</td>
+                <td>Soil incorporation, furrow placement, or drip-supported root-zone delivery</td>
+              </tr>
+              <tr>
+                <td>Active vegetative stage or nutrient top-up</td>
+                <td>1.0 kg/acre</td>
+                <td>100&ndash;150 L</td>
+                <td>Root-zone drench or drip application near feeder roots</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="dosage-table-wrapper">
+        <h3 class="dosage-heading">IGreen SHIELD &ndash; Microbial consortium (1 × 10⁹ CFU/g) WP</h3>
+        <div class="dosage-table-scroll">
+          <table class="dosage-table">
+            <thead>
+              <tr>
+                <th>Crop Stage</th>
+                <th>Dose per Acre</th>
+                <th>Water Volume</th>
+                <th>Application Method</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Basal soil application or early crop establishment</td>
+                <td>1.0&ndash;2.0 kg/acre</td>
+                <td>NA; 25&ndash;50 kg compost carrier or drip water</td>
+                <td>Soil incorporation, furrow placement, or drip-supported root-zone delivery</td>
+              </tr>
+              <tr>
+                <td>Active vegetative stage or nutrient top-up</td>
+                <td>1.0 kg/acre</td>
+                <td>100&ndash;150 L</td>
+                <td>Root-zone drench or drip application near feeder roots</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="dosage-table-wrapper">
+        <h3 class="dosage-heading">IGreen N &ndash; Microbial consortium (1 × 10⁹ CFU/g) WP</h3>
+        <div class="dosage-table-scroll">
+          <table class="dosage-table">
+            <thead>
+              <tr>
+                <th>Crop Stage</th>
+                <th>Dose per Acre</th>
+                <th>Water Volume</th>
+                <th>Application Method</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Basal soil application or early crop establishment</td>
+                <td>1.0&ndash;2.0 kg/acre</td>
+                <td>NA; 25&ndash;50 kg compost carrier or drip water</td>
+                <td>Soil incorporation, furrow placement, or drip-supported root-zone delivery</td>
+              </tr>
+              <tr>
+                <td>Active vegetative stage or nutrient top-up</td>
+                <td>1.0 kg/acre</td>
+                <td>100&ndash;150 L</td>
+                <td>Root-zone drench or drip application near feeder roots</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="dosage-table-wrapper">
+        <h3 class="dosage-heading">IGreen P &ndash; Microbial consortium (1 × 10⁹ CFU/g) WP</h3>
+        <div class="dosage-table-scroll">
+          <table class="dosage-table">
+            <thead>
+              <tr>
+                <th>Crop Stage</th>
+                <th>Dose per Acre</th>
+                <th>Water Volume</th>
+                <th>Application Method</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Basal soil application or early crop establishment</td>
+                <td>1.0&ndash;2.0 kg/acre</td>
+                <td>NA; 25&ndash;50 kg compost carrier or drip water</td>
+                <td>Soil incorporation, furrow placement, or drip-supported root-zone delivery</td>
+              </tr>
+              <tr>
+                <td>Active vegetative stage or nutrient top-up</td>
+                <td>1.0 kg/acre</td>
+                <td>100&ndash;150 L</td>
+                <td>Root-zone drench or drip application near feeder roots</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="dosage-table-wrapper">
+        <h3 class="dosage-heading">Application Timing &amp; Frequency</h3>
+        <div class="dosage-table-scroll">
+          <table class="dosage-table">
+            <thead>
+              <tr>
+                <th>Application Timing</th>
+                <th>Frequency</th>
+                <th>Recommendation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>At sowing, transplanting, or basal land preparation</td>
+                <td>One foundational application</td>
+                <td>Introduce the consortium early so rhizosphere colonization starts before nutrient demand peaks.</td>
+              </tr>
+              <tr>
+                <td>During active vegetative growth or after heavy leaching</td>
+                <td>Repeat after 20-30 days if required</td>
+                <td>Reapply to sustain microbial nutrient cycling when crop demand or nutrient loss remains high.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    
+    </div>
+  </section>
+
+  
+  <!-- ===== PROBLEM / SOLUTION ===== -->
+  <section class="section section-muted">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Agronomic Challenges</span>
+        <h2 class="section-title">Problem &amp; Solution</h2>
+      </div>
+      <div class="ps-grid">
+          <div class="ps-block">
+            <div class="ps-problem">
+              <span class="material-symbols-outlined">warning</span>
+              <div><h4>Problem</h4><p>Applied fertilizer is not translating into uniform crop nutrition.</p></div>
+            </div>
+            <div class="ps-solution">
+              <span class="material-symbols-outlined">check_circle</span>
+              <div><h4>Solution</h4><p>Use the consortium to improve nutrient conversion, cycling, and root-zone uptake efficiency.</p></div>
+            </div>
+          </div>
+          <div class="ps-block">
+            <div class="ps-problem">
+              <span class="material-symbols-outlined">warning</span>
+              <div><h4>Problem</h4><p>Soil biological activity is low and nutrient release is slow.</p></div>
+            </div>
+            <div class="ps-solution">
+              <span class="material-symbols-outlined">check_circle</span>
+              <div><h4>Solution</h4><p>Apply early to stimulate rhizosphere colonization and multi-nutrient mobilization.</p></div>
+            </div>
+          </div>
+      </div>
+      <p class="tech-summary">Broad-spectrum consortium positioned as a base biological nutrient-efficiency input where N, P, and K response must be improved together.</p>
+    </div>
+  </section>
+  <!-- ===== PROGRAM FIT ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header align-left">
+        <span class="section-subtitle">Program Fit</span>
+        <h2 class="section-title">Use sites, compatibility, and storage</h2>
+      </div>
+      <div class="use-grid">
+        <div class="use-card">
+          <h3><span class="material-symbols-outlined">map</span> Use Sites</h3>
+          <ul>
+            <li>Soil drench and drip irrigation programs for vegetables and specialty crops.</li>
+            <li>Seed coating and transplant dips for cereals, oilseeds, and nurseries.</li>
+            <li>Fertigation through greenhouse, hydroponic, and shade-net systems.</li>
+            <li>Orchards and plantation crops requiring sustained nutrient support.</li>
+          </ul>
+        </div>
+        <div class="use-card">
+          <h3><span class="material-symbols-outlined">science</span> Compatibility</h3>
+          <ul>
+            <li>Do not mix with antimicrobial dressers, strong fungicides, bactericides, or highly saline concentrates.</li>
+          </ul>
+        </div>
+        <div class="use-card">
+          <h3><span class="material-symbols-outlined">inventory</span> Shelf Life &amp; Storage</h3>
+          <ul>
+            <li>Consortium strength: 1 × 10⁹ CFU/g.</li>
+            <li>Typical shelf life: 12 months in the unopened original pack under cool, dry, shaded storage.</li>
+            <li>Store sealed in the original pack away from direct sunlight, heat, and moisture.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="section cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Launch IGreen microbial programs in your market</h2>
+        <p>Partner with Kriya to access consistent manufacturing, regulatory dossiers, and technical specialists who support distributor success.</p>
+        <div class="cta-actions">
+          <a href="../../contact.html" class="btn-primary">
+            <span>Contact Sales</span>
+            <span class="material-symbols-outlined">arrow_forward</span>
+          </a>
+          <a href="../../contract-manufacturing.html" class="btn-outline">
+            <span>Contract Manufacturing</span>
+            <span class="material-symbols-outlined">factory</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  
+<footer class="footer">
+  <div class="container">
+    <div class="footer-strip">
+      <div class="footer-brand">
+        <a href="../../index.html" class="footer-logo">
+          <img src="../../assets/img/footer-logo.png" alt="Kriya Ltd" />
+        </a>
+        <p class="footer-brandline">Leading provider of certified organic crop care solutions for sustainable agriculture.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="../../about.html">About</a>
+        <a href="../../index.html#products">Products</a>
+        <a href="../../technology/karyo.html">Technology</a>
+        <a href="../../contact.html">Contact</a>
+      </nav>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/company/108402158/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a href="https://www.youtube.com/@kriyabiosys" class="social-icon" aria-label="YouTube" target="_blank" rel="noopener">
+          <i class="bx bxl-youtube"></i>
+        </a>
+        <a href="https://x.com/kriyabiosys" class="social-icon" aria-label="Twitter" target="_blank" rel="noopener">
+          <i class="bx bxl-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/kriyabiosys/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="/cdn-cgi/l/email-protection#51383f373e113a233828307f3d2535" class="social-icon" aria-label="Email">
+          <i class="bx bx-envelope"></i>
+        </a>
+        <a href="https://wa.me/916385848466" class="social-icon" aria-label="WhatsApp" target="_blank" rel="noopener">
+          <i class="bx bxl-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-meta">
+      <p class="footer-disclaimer">For usage/dosage information, refer to the product documentation supplied with each formulation.</p>
+      <div class="footer-legal">
+        <span>© Kriya Ltd 2025</span>
+        <a href="../../policies.html#trademark">Trademark</a>
+        <a href="../../policies.html#privacy">Privacy</a>
+        <a href="../../policies.html#responsible-use">Responsible Use</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <button class="back-to-top" id="backToTop">
+    <span class="material-symbols-outlined">arrow_upward</span>
+    <span class="back-to-top-text">Back to top</span>
+  </button>
+
+  <script data-cfasync="false" s
